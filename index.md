@@ -17,5 +17,6 @@ The app is launched and used locally; there is nothing to sign up for on this si
 
 - [Privacy Policy](privacy.html)
 - [End-User License Agreement](eula.html)
+- [Support](support.html)
 
 Contact: chopkinsrealty@gmail.com
