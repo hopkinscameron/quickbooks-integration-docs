@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta name="referrer" content="no-referrer">
+  <title>Connecting to QuickBooks…</title>
+  <script>
+    // Intuit requires an https redirect URI, but the app runs locally.
+    // Hand the one-time authorization code and state straight to the local app's OAuth callback.
+    // The code is single-use, short-lived, and useless without the app's client secret.
+    location.replace("http://localhost:3000/api/qbo/callback" + location.search);
+  </script>
+</head>
+<body style="font-family: sans-serif; padding: 2rem">
+  <p>Returning to QuickBooks Receipt Matcher on this computer…</p>
+  <p>If nothing happens, make sure the app is running (<code>npm run dev</code>) and try connecting again.</p>
+</body>
+</html>
